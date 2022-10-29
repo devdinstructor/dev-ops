@@ -1,11 +1,8 @@
 #include<stdio.h>
-
-using namespace std;
-
+using namsepace std;
 
 int main(){
-
-    cout<<"Hello world"<<;
+    cout<<"Hello world"<<endl;
     cout<<"Assignment 1"<<endl;
     return 0;
 }
