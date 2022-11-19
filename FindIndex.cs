@@ -12,15 +12,15 @@ namespace devops
         public int IndexOf(int number)
         {
             var index = -1;
+            var idx = -1;
             foreach (var num in array)
             {
-                if (num != number)
+                idx++;
+                if (num == number)
                 {
-                    continue;
+                    index = idx;
+                    break;
                 }
-
-                index = num;
-                break;
             }
 
             return index;
