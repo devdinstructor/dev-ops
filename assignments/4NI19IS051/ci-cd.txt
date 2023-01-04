@@ -1,0 +1,70 @@
+4NI19IS051
+
+N Aditya Bhat
+4NI19IS051
+Section 7 A
+
+DevOps Assignment-01
+1. What is CI/CD?
+CI/CD stands for Continuous Integration / Continuous Deployment. It is a
+software engineering practice that aims to minimize the time between writing
+code and actually releasing it, by automating the build, test, and deployment
+process. The idea behind CI/CD is to make it easier for developers to integrate
+their code into a shared repository and automatically have it built, tested, and
+deployed. This way, they can focus on writing code and have confidence that
+their changes will be automatically tested and deployed to production if they
+pass all the tests.
+There are many tools available to help organizations implement CI/CD
+pipelines, such as
+• Jenkins,
+• GitLab
+• Azure DevOps.
+These tools typically provide a way to automate the build and test process
+and manage the deployment of code to different environments (e.g., test,
+staging, production).
+
+2. What are feature flags and how are they used?
+Feature flags (also known as feature toggles or feature switches) are a
+technique used to enable or disable specific features or functionality in an
+application without deploying a new version of the code. They allow developers
+to release code that is not yet fully ready for production, by wrapping it in a
+feature flag that can be turned on or off remotely. This way, the code can be
+tested in production without affecting all users, and it can be easily rolled back
+if there are any issues.
+Feature flags can be used in a variety of situations, such as:
+• Enabling new features for a subset of users (e.g., a small group of beta
+testers) before rolling them out to everyone.
+
+4NI19IS051
+
+• Temporarily disabling a feature that is causing issues or is under
+development.
+• Allowing users to opt-in to new features before they are fully released.
+• Facilitating A/B testing by enabling different versions of a feature for
+different groups of users.
+Feature flags can be implemented in many different ways, depending on the
+specific needs of the application. They can be as simple as a flag in a
+configuration file, or they can be more sophisticated, using APIs or specialized
+tools to manage and track the flags.
+
+3. Explain CI/CD pipeline with block diagram
+A CI/CD pipeline is a series of automated steps that are used to build,
+test, and deploy software. The goal of a CI/CD pipeline is to minimize the time
+between writing code and actually releasing it, by automating as much of the
+process as possible.
+Here's a high-level overview of the steps involved in a typical CI/CD pipeline:
+1. Code commit: Developers commit their code changes to a version control
+repository, such as Git.
+2. Build: The code is automatically built into an executable form, using
+tools such as compilers or interpreters.
+3. Test: The code is automatically tested using a suite of automated tests,
+such as unit tests, integration tests, and acceptance tests.
+4. Deploy: If the tests pass, the code is automatically deployed to one or
+more environments, such as test, staging, or production.
+There are many tools available to help organizations implement CI/CD
+pipelines. These tools typically provide a way to automate the build and test
+process and manage the deployment of code to different environments.
+
+Block Diagram of CI/CD pipeline
+
+
