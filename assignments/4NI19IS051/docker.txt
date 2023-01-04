@@ -1,0 +1,54 @@
+4NI19IS051
+
+N Aditya Bhat
+4NI19IS051
+Section 7 A
+
+DevOps Assignment-02
+1. Comparison between hypervisor and docker
+Hypervisors and Docker are two technologies that are often used in the
+field of virtualization, but they serve different purposes and have some key
+differences.
+A hypervisor is a piece of software that allows multiple operating
+systems to run on the same physical host by creating virtual machines (VMs).
+Each VM behaves as if it is a separate physical computer, with its own
+operating system, CPU, memory, and storage. Hypervisors are typically used to
+run multiple applications or services on a single physical server, in order to
+make more efficient use of hardware resources.
+Docker, on the other hand, is a containerization platform that allows
+developers to package applications and their dependencies into lightweight,
+standalone containers that can be easily deployed and run on any infrastructure.
+Unlike VMs, which include a full operating system, containers only include the
+libraries and components that are needed to run the application, making them
+much more lightweight and efficient.
+So, to summarize: hypervisors are used to create and run VMs, while
+Docker is used to create and running containers. Both technologies can be used
+to isolate and run applications, but they do so in different ways.
+
+2. Comparison between container and virtual machine
+Containers and virtual machines are both technologies that are used to
+isolate and run applications, but they work in different ways and have some key
+differences.
+A virtual machine (VM) is a simulated environment that behaves like a
+physical computer, with its own operating system, CPU, memory, and storage.
+VMs are created and run using a hypervisor, which is a piece of software that
+allows multiple VMs to run on the same physical host. Each VM is isolated
+from the others and behaves as if it is a separate physical computer.
+
+4NI19IS051
+
+Containers, on the other hand, are a way to package and run applications
+in a lightweight, standalone environment. Containers include the application
+and all its dependencies, but they do not include a full operating system like
+VMs do. Instead, they rely on the host operating system to provide the
+necessary libraries and components. This makes containers much more
+lightweight and efficient than VMs.
+Thus, VMs are simulated environments that include a full operating
+system and hardware resources, while containers are lightweight, standalone
+environments that include just the application and its dependencies. Both
+technologies can be used to isolate and run applications, but they do so in
+different ways.
+
+Virtual Machines vs. Containers
+
+
