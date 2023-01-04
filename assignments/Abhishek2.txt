@@ -1,0 +1,107 @@
+Abhishek Shankar | 4NI19IS003 | A section
+DevOps Assignment - 2
+1. Comparison between Hypervisor and Docker.
+Note:- Alpha Numeric system -Hypervisor(1,2,3,...) roman numerals system -Docker(i,ii,iii,iv....).
+1). Hypervisors can be made to work on software
+and hardware where it works on the operating
+system or on the CPU and storage services of
+the system.
+i). Dockers work only on software of the
+operating system and not on the hardware
+side. It takes the host kernel and works on the
+principle of virtualization.
+2). In a single system, we can use multiple
+operating systems with the help of
+Hypervisor. This makes the system to work
+with multiple users with different methods
+even for the same program. Hence the same
+operation is done by different operating
+systems.
+ii). Docker does not allow user to create re
+instances of operating system in the same
+computer but it makes virtualization by
+making containers in the same system.
+Containers help users to work separately on
+different or same applications. The same
+operations are carried out by containers in the
+system.
+3). More power and resources are required by the
+systems using hypervisor as different
+programs are being run on the same system
+with different operating systems.
+iii). Resource requirement is low as containers are
+working on the same operating system and
+this makes the system to share resources
+within the containers.
+4). Boot time is high for hypervisors as different
+operating systems are used. It may take some
+minutes to start the system and users can
+resume their work only after booting the
+machine.
+iv). Boot time is low for dockers as all the
+containers work on the same machine. User
+can start the system in seconds and can start
+working on the same machine.
+5). We cannot test the same application with
+different parameters in hypervisor as there is
+no container method available. This
+application needs to be developed and tested
+in the system. If the parameters must be
+changed, it should be modified in the same
+operating system itself.
+v). If the same application needs to be tested in
+the system with different instances, we can
+use containers as different parameters can be
+given to the application in the same container
+and can be tested at the same time. Dockers
+support this method of working which is
+called an agile model.
+6). Hypervisor works with host OS and guest OS
+which creates layers that run the hardware.
+We cannot create different instances for the
+same application in the system but we can
+control the hardware and make the system
+work with both OS.
+vi). Docker does not have an OS for itself and
+thus it creates instances and parameters by
+sitting on top of OS. This helps in modifying
+the instances if needed. It works solely on the
+host OS and does not control the hardware of
+the system.
+                                                                                          
+
+2. Comparison between Containers and Virtual Machines.
+Note:- Alpha Numeric system -Containers(1,2,3,...) roman numerals system -Virtual Machines(i,ii,iii,iv....).
+1). While a container is a software that allows
+different functionalities of an application
+independently.
+i). VM is piece of software that allows you to
+install other software inside of it so you
+basically control it virtually as opposed to
+installing the software directly on the
+computer.
+2). While applications running in a container
+environment share a single OS.
+ii). Applications running on VM system can run
+different OS.
+3). While containers virtualize the operating
+system only.
+iii). VM virtualizes the computer system.
+4). While the size of container is very light; i.e.,
+a few megabytes.
+iv). VM size is very large.
+5). While containers take a few seconds to run. 
+v). VM takes minutes to run, due to large size.
+6). While containers require very less memory. 
+vi). VM uses a lot of system memory.
+7). While containers are less secure. 
+vii). VM is more secure.
+8). While containers are useful when we are
+required to maximise, the running
+applications using minimal servers.
+viii). VM’s are useful when we require all of OS
+resources to run various applications.
+9). While examples of containers are:
+RancherOS, PhotonOS, Containers by
+Docker.
+ix). Examples of VM are: KVM, Xen, VMware.
