@@ -1,0 +1,293 @@
+DEVOPS Assignment (2)
+Jitendra Lokesh Bhat – 4NI19IS039
+1. Hypervisors and Docker : -
+
+Definition
+
+Virtualization method
+
+Resource overhead
+
+Hypervisors
+
+Docker
+
+A hypervisor is a
+
+Docker is a
+
+software layer that
+
+containerization platform
+
+allows multiple
+
+that allows developers to
+
+operating systems to run
+
+package applications and
+
+on a single physical
+
+their dependencies into
+
+machine.
+
+containers.
+
+Hypervisors use
+
+Docker uses operating
+
+hardware virtualization
+
+system level
+
+to create virtual
+
+virtualization to create
+
+machines (VMs). Each
+
+containers that share the
+
+VM runs its own
+
+host operating system's
+
+operating system
+
+kernel.
+
+Hypervisors introduce a
+
+Docker containers have a
+smaller resource overhead,
+as they share the host
+operating system and do
+not require their own OS.
+
+significant amount of
+overhead, as each VM
+requires its own
+operating system and
+resources.
+Deployment
+
+Compatibility
+
+Hypervisors require a
+
+Docker can be installed
+
+separate installation on
+
+on the host machine and
+
+the host machine. VMs
+
+used to create and
+
+can be created and
+
+manage containers
+
+configured manually or
+
+through the command
+
+through automation
+
+line or API.
+
+Hypervisors are
+
+Docker containers are
+
+generally compatible
+
+generally portable across
+
+with most operating
+
+different operating
+
+systems, but may require systems and
+
+Scaling
+
+specific hardware
+
+environments, as long as
+
+support.
+
+Docker is installed.
+
+Scaling VMs can be
+
+Docker containers are
+
+time-consuming, as each
+
+easy to scale, as they can
+
+VM requires its own
+
+be created and destroyed
+
+resources and must be
+
+quickly and do not
+
+configured manually.
+
+require manual
+configuration.
+
+Isolation
+
+Hypervisors provide
+
+Docker provides
+
+strong isolation between
+
+moderate isolation
+
+VMs, as each VM runs
+
+between containers, as
+
+its own operating system they share the host
+and has its own
+
+operating system and its
+
+resources.
+
+resources.
+
+Maintenance and
+
+Maintaining and
+
+Docker containers are
+
+updates
+
+updating hypervisors
+
+easy to update, as new
+
+and VMs can be time-
+
+containers can be created
+
+consuming, as each VM
+
+from updated images and
+
+requires its own
+
+replaced with minimal
+
+operating system and
+
+downtime.
+
+patches
+Security
+
+Hypervisors provide
+
+Docker provides
+
+strong security, as each
+
+moderate security, as
+
+VM runs its own
+
+containers share the host
+
+operating system and is
+
+operating system and its
+
+isolated from other
+
+resources.
+
+VMs.
+
+2. Comparison between Containers and Virtual machines.
+Containers and virtual machines are both ways to isolate applications and their
+dependencies from the rest of the host system. They both have their own advantages
+and disadvantages, and the best choice depends on the specific needs of the
+application being deployed.
+Here are some key differences between containers and virtual machines:
+
+
+Isolation: Virtual machines provide full isolation of the guest operating
+system from the host. This means that a virtual machine can run a
+completely different operating system than the host, and the guest operating
+system is unaware that it is running on a virtual machine. In contrast,
+containers share the host operating system kernel and libraries with other
+containers, but they provide isolation of the application and its dependencies
+from the rest of the host system.
+
+
+
+Overhead: Virtual machines require a full copy of the guest operating
+system, as well as the virtualization software, to be installed on the host.
+This can result in a larger resource overhead compared to containers.
+Containers, on the other hand, do not require a full operating system to be
+included in each container image, and can share the host's kernel and
+libraries, which makes them more lightweight than virtual machines.
+
+
+
+Performance: Because containers share the host operating system kernel
+and libraries, they can start up faster than virtual machines, which need to
+boot a full operating system. In addition, containers can be more efficient
+with resources such as memory and CPU, because they do not have the
+overhead of a full operating system. However, virtual machines can provide
+better isolation and resource guarantees, because they are completely
+separated from the host and other guest operating systems.
+
+
+
+Use cases: Virtual machines are typically used when the application requires
+a specific operating system or runtime environment that is different from the
+host system, or when the application needs to be isolated from the host and
+other applications. Containers are often used for applications that are
+
+designed to be portable and scalable, and that do not require a specific
+operating system or runtime environment.
+
+
+Resource allocation: In a virtual machine, resources such as CPU, memory,
+and storage are allocated to each individual virtual machine. This means that
+each virtual machine has its own set of resources, regardless of whether they
+are being used or not. In contrast, containers share the same host operating
+system and resources, which allows for more efficient resource utilization
+
+
+
+Deployment: Virtual machines require a full operating system and system
+libraries to be installed, which can be time-consuming and require more
+storage space. Containers, on the other hand, only contain the necessary
+code and libraries for the application, making them faster to deploy and
+requiring less storage space.
+
+
+
+Portability: Virtual machines are not as portable as containers due to the
+need to recreate the entire operating system and system libraries on each
+host. Containers, on the other hand, can be easily moved between hosts as
+long as the host operating system is compatible. This makes containers a
+more flexible and portable solution for deployment.
+
+
