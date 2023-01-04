@@ -3,7 +3,7 @@ Name: Aman Narayan Singh
 USN: 4NI19IS119                                                                                       
 Branch: ISE 
 Section: ‘B’
-
+ 
 Q.1.)  What is CI/CD?
        CI and CD are two acronyms frequently used in modern development practices and DevOps. CI stands for continuous integration, a fundamental DevOps best practice        where developers frequently merge code changes into a central repository where automated builds and tests run. But CD can either mean continuous delivery or            continuous deployment.  
        Continuous integration
