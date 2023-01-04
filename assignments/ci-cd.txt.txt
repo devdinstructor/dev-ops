@@ -1,0 +1,39 @@
+DevOps Assignment
+                                                                  RK Arvind  4NI18IS072    
+CI/CD: -
+•	CI stands for Continuous Integration  
+•	CD stands for Continuous Delivery 
+•	It creates a more efficient and precise way of combining the work of various people into one cohesive product. 
+•	In application development and operations (DevOps), CI/CD streamlines factors such as: - 
+o	Application Coding 
+o	Testing and Deployment 
+•	Which is done by enabling a single repository for the teams to store work and automation tools to consistently combine and test the code to ensure it works. 
+
+CI/CD Pipeline: -
+•	The Continuous Integration/Continuous Delivery (CI/CD) pipeline is an agile DevOps workflow focused on a frequent and reliable software delivery process. 
+•	The methodology used here is iterative, rather than linear, which allows DevOps teams to write code, integrate it, run tests, deliver releases and deploy changes to the software collaboratively and in real-time.
+•	A key characteristic of the CI/CD pipeline is the use of automation to ensure code quality. 
+
+•	As the software changes progress through the pipeline: - 
+o	test automation is used to identify dependencies and other issues earlier 
+o	push code changes to different environments and deliver applications to production environments. 
+o	Here, the automation’s job is to perform quality control, assessing everything from performance to API usage and security. 
+o	This ensures the changes made by all team members are integrated comprehensively and perform as intended.
+The ability to automate various phases of the CI/CD pipeline helps development teams improve quality, work faster and improve other DevOps metrics.
+
+ 
+
+Stages:
+1.	Build: The build stage involves the code being written. This is typically done by multiple people in a team, and for larger projects, multiple teams. Code is held in a version control system (VCS).
+2.	Test: testing code leads to greater confidence that the code will perform as expected. Testing of your code can be automated. In general, this is normally a repetitive, complex and sometimes tedious process to perform manually.
+3.	Deliver: After the code has been tested, the code is packaged up as an artifact and committed to a repository.
+4.	Deploy: The deploy stage allows the orchestration of the artifact release. Usually, teams will deploy to multiple environments, including environments for internal use such as development and staging, and Production for end-user consumption.
+ Benefits of CI/CD Pipeline:
+1.	Higher Efficiency
+2.	Reduced risks of defects
+3.	Faster product delivery
+4.	Log generation
+5.	Better Planning
+Feature Flags: -
+Feature flags also allow you to decouple code deployments from feature releases. You can make code changes in production while hiding those changes from users. These abilities are a key facilitator of DevOps. They allow DevOps teams to deploy to production faster, knowing that, in the off-chance the newly developed feature doesn’t work as expected, they can just switch it off, reducing its impact to effectively zero. In other words: feature flags are a safety net that enables faster code deployments.
+Feature flags which are also commonly known as feature toggles is a software engineering technique that turns on or off select functionality during runtime, without deploying new code. This enables teams to make changes without pushing additional code and allows for more controlled experimentation over the lifecycle of features. Because of this, feature flags enable many novel workflows that are incredibly useful to an agile management style and CI/CD environments.
