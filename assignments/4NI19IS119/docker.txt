@@ -3,7 +3,7 @@ DevOps Assignment – 2
 Name: Aman Narayan Singh
 USN: 4NI19IS119
 Branch: ISE 
-Section: ‘B’
+Section: ‘B’ 
 
 Q.1.) Comparison between hypervisor and docker? 
       •	Functioning Mechanism
