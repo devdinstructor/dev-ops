@@ -126,7 +126,7 @@ Advantages of CI/CD pipelines:
 •	A CD pipeline gives a rapid feedback loop starting from developer to client.
 •	Improves communications between organization employees.
 •	It enables developers to know which changes in the build can turn to the brokerage and to avoid them in the future.
-•	The automated tests, along with few manual test runs, help to fix any issues that may arise.
+•	The automated tests, along with few manual test runs, help to fix any issues that may arise. 
 
 
 
