@@ -1,0 +1,37 @@
+# DevOps Assignment – 1
+
+
+## 1.	What is CI/CD?
+
+It’s a method to frequently deliver applications to customers by introducing automation into the stages of application development. The main concepts of CI/CD are continuous integration, continuous delivery, and continuous deployment. This is a solution to the problems integrating new code can cause for development and operations teams (AKA "integration hell").
+
+## 2.	What are Feature flags and how it is used?
+
+Feature flags, also known as feature toggles, are a technique used in software development and DevOps to enable or disable features in a software application without the need to deploy a new version of the application. This allows developers to work on new features or changes to the application without disrupting the functionality of the current version for users.
+
+-	Feature flags can be used to test new features with a subset of users before releasing them to the entire user base, or to gradually roll out a feature to all users.
+-	They can also be used to quickly disable a feature in the event of a problem or to experiment with different versions of a feature.
+-	In DevOps, feature flags are often used in conjunction with continuous delivery and deployment practices.
+-	Feature flags are typically implemented using a combination of code and configuration.
+-	They can be managed through a variety of tools and platforms, including feature flag management platforms, version control systems, and configuration management systems.
+
+An example of how feature flags might be used in a DevOps workflow:
+
+-	A developer writes and tests a new feature on their local machine.
+-	The developer commits the code changes to a version control system and pushes them to a central repository.
+-	The code is automatically built and deployed to a staging environment. 
+-	The developer creates a feature flag to toggle the availability of a new feature. 
+-	The team monitors the usage and performance of the new feature to ensure that it is working as expected. 
+-	The developer uses the feature flag to enable the new feature for a small group of users, such as a subset of the staging environment or a group of beta  testers.
+-	If the new feature is stable and performs well, the team can use the feature flag to roll it out to a wider audience. If there are any issues with the feature, the team can use the feature flag to quickly disable it.
+
+## 3.	Explain CI/CD pipeline with block diagram.
+CI/CD, or Continuous Integration/Continuous Deployment, is a software development practice that aims to reduce the time it takes to deliver new features and updates to users by automating the build, test, and deployment processes.
+In a CI/CD pipeline, code changes are automatically built, tested, and deployed to production as soon as they are committed to the source code repository. This allows development teams to deliver new features and bug fixes to users faster and with fewer errors, as the pipeline catches any issues at the early stages of development. Here is a high-level overview of the steps involved in a typical CI/CD pipeline: 
+
+-	Code Commit: Developers commit their code changes to a version control system (such as Git) and push them to a central repository.
+-	Build: A build system retrieves the latest code from the repository and compiles it into a deployable package (ex: Docker image). The build process may also include tasks such as running tests and generating documentation.
+-	Test: The build is deployed to a staging environment and automated tests are run to ensure that the code is working as expected.
+-	Deploy: If the tests pass, the code is deployed to production. If the tests fail, the deployment process is halted, and the developers are notified of the issue.
+-	Monitor: Once the code is deployed to production, it is monitored for any issues or errors. By automating these steps, a CI/CD pipeline allows development teams to deliver new code changes quickly and confidently to users, while also ensuring that the code is of high quality.
+
