@@ -16,7 +16,8 @@ dist/
 # Log files
 *.log
 
-# Package files
+# Package fileshbbu
+
 *.jar
 
 # Maven
