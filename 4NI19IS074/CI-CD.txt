@@ -1,0 +1,47 @@
+1. What is CI/CD?
+CI/CD (Continuous Integration/Continuous Delivery or Deployment) is a set of practices in DevOps that enables teams to build, test, and 
+deliver software rapidly and reliably. It automates the process of integrating code changes from multiple developers and delivering them to production. 
+It is a method of automating the process of software delivery by integrating code changes, testing, and releasing software often. This helps teams to detect 
+and fix bugs faster and reduce the time to market for new features.
+
+Continuous Integration:
+Continuous integration (CI) is a software development practice that requires developers to integrate code into a shared repository several times a day. 
+Each integration is then verified by an automated build, allowing teams to detect errors quickly and locate them more easily. By integrating regularly, 
+developers can detect errors quickly, and locate them more easily. This practice makes it easier for teams to collaborate on code, and reduces the time 
+it takes to release new features. Furthermore, CI helps to reduce the risk of introducing undetected bugs into production by running tests on each code 
+change before it is released.
+
+Continuous Delivery and Continuous Deployment:
+Continuous delivery and continuous deployment are two of the most important concepts in DevOps. Continuous delivery is the process of continuously delivering 
+software updates and improvements to customers. This process usually involves automating the build, test, and deployment process. Continuous deployment is a 
+step further, where the software is automatically deployed to production as soon as it passes the automated tests.
+Continuous deployment is a DevOps practice that enables teams to deploy new features, bug fixes and updates to their customers in a rapid and automated fashion. 
+It ensures that teams can quickly and reliably deploy code changes to production environments without manual intervention. Continuous deployment is the practice of 
+releasing applications and updates to production as soon as changes are committed to version control. It is a process that automates
+
+CI/CD Tools:
+• Jenkins: An open-source automation server that helps developers build, test, and deploy their projects.
+• Travis CI: A hosted continuous integration service that integrates with GitHub and Bitbucket to run automated tests against code changes.
+• CircleCI: A hosted continuous integration and delivery platform that helps developers and teams ship their applications faster.
+• GitLab CI/CD: An integrated CI/CD platform that helps teams automate their software development process and deploy their applications with ease.
+• AWS CodePipeline: A fully managed CI/CD platform that enables developers to deploy applications and updates quickly and reliably to AWS-based infrastructure.
+These tools help developers automate the process of integrating code changes, testing them, and releasing them to production. With these tools, teams can quickly 
+identify and fix issues, ship new features and updates, and ensure the highest quality code is always being deployed.
+
+2. What is CI/CD Pipeline?
+CI/CD is an acronym for "Continuous Integration/Continuous Delivery." It is a software development and delivery process which focuses on automating the process of integrating code changes, testing them, and then delivering them.
+The CI/CD pipeline consists of several stages:
+• Code Integration: Developers integrate their code changes into the main branch of the code repository.
+• Build: Code is built into an executable form.
+• Test: Automated tests are run to ensure the code is working as expected.
+• Deploy: The code is deployed to production servers or other target environments.
+• Monitor: The code is monitored to ensure the system is running as expected.
+The CI/CD pipeline provides a reliable, automated way to manage the entire software development and delivery process, and is essential for reducing time to market for new features and bug fixes.
+Advantages of using CI/CD Pipeline:
+• Automation: Automating the software development process with a CI/CD pipeline helps to reduce time and effort to build, test, and deploy applications.
+• Efficiency: CI/CD pipelines can be used to effectively manage and monitor the development process, allowing teams to quickly identify and resolve issues.
+• Quality Assurance: Quality assurance is improved, as automated testing is included in the CI/CD pipeline. This helps to ensure that only code that meets the specified standards is released.
+• Continuous Deployment: Automating the deployment process reduces the risk of errors and allows teams to quickly deploy new features and updates.
+• Reduced Risk: By automating the software development process, teams can reduce the risk of manual errors and misconfigurations.
+Continuous Integration/Continuous Delivery (CI/CD) is a DevOps practice that combines both Continuous Integration (CI) and Continuous Delivery (CD). The main idea behind CI/CD is automation of the entire software delivery process.
+4NI19IS013
